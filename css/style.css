@@ -1,0 +1,37 @@
+header {
+    width: 1240px;
+    height: 110px;
+    background-color: #4a4f56;
+    font-family: 'Trebuchet MS', Trebuchet, Arial, sans-serif;
+    color: #eb7e7f;
+    margin: auto;
+    text-align: center;
+}
+
+#big_div {
+    width: 1240px;
+    height: 630px;
+    background-color: #3b3f45;
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+}
+
+#button {
+    width: 800px;
+    height: 75;
+    margin: auto;
+    }
+
+#button :nth-child(1) {
+    width: 800px;
+    height: 75;
+    background-color: #4a4f56;
+    font-family: 'Trebuchet MS', Trebuchet, Arial, sans-serif;
+    font-size: 30px;
+    color: #eb7e7f;
+    text-align: center;
+  }
