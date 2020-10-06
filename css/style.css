@@ -3,7 +3,6 @@
 }
 
 header {
-    display: block;
     width: 1240px;
     height: 110px;
     background-color: #4a4f56;
@@ -11,7 +10,6 @@ header {
     color: #eb7e7f;
     margin: auto;
     text-align: center;
-    align-items: center;
 }
 
 .big_div {
@@ -22,8 +20,7 @@ header {
 }
 
 #list {
-    display: flex;
-    align-items: center;
+    display: block;
     margin: auto;
     width: 800px;
     padding-top: 40px;
@@ -41,6 +38,9 @@ ul {
 
 li {
     list-style-type: none;
+    display: block;
+    width: 800px;
+    height: 63px;
 }
 
 .points {
@@ -50,15 +50,24 @@ li {
     font-family: 'Trebuchet MS', Trebuchet, Arial, sans-serif;
     font-size: 20px;
     color: white;
-    align-content: 50%;
 }
 
-#list .points:nth-child(2n) {
-    background-color: #7a7593;
+div.big_div div#list ul li.points:hover {
+    background-color: #625e77;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+}
+
+div.big_div div#list ul li.points input[type="checkbox"]:checked+label {
+    text-decoration: line-through;
 }
 
 #list .points:nth-child(2n+1) {
     background-color: #88839e;
+}
+
+#list .points:nth-child(2n) {
+    background-color: #7a7593;
 }
 
 #button {
