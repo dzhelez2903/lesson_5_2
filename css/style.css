@@ -29,7 +29,7 @@ header {
 
 input,
 label {
-    margin-top: 30px;
+    line-height: 60px;
 }
 
 ul {
@@ -84,4 +84,8 @@ div.big_div div#list ul li.points input[type="checkbox"]:checked+label {
     font-size: 30px;
     color: #eb7e7f;
     text-align: center;
+}
+.stealth {
+    display: inline-block;
+    width: 780px;
 }
